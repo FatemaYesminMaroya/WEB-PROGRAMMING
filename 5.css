@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mainnavber {
+    display: flex;
+    width: 100%;
+    height: 56px;
+    justify-content: space-between;
+
+}
+
+.leftnevber {
+    display: flex;
+    align-items: center;
+}
+
+.leftnevber .logomark {
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.leftnevber h4 {
+    font-size: 17px;
+}
+
+.rightnerbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    gap: 10px;
+
+}
+
+.list {
+
+    display: flex;
+}
+
+.list li {
+
+    list-style: none;
+    margin-left: 10px;
+    color: rgb(57, 57, 57);
+    font-weight: 10;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.list li:hover {
+    text-decoration: underline;
+}
+
+.Start-free-trial {
+    border: none;
+    padding: 8px 15px;
+    background-color: rgb(81, 138, 168);
+    color: aliceblue;
+    border-radius: 5px;
+
+
+}
+
+.body {
+    display: flex;
+    height: 500px;
+    gap: 15px;
+
+
+}
+
+.left-side {
+    width: 38%;
+    background-color: rgb(81, 138, 168);
+    color: aliceblue;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side1 {
+    line-height: 1.7;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+.profile1 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 22px;
+}
+
+.profile {
+    border: 2px solid rgb(253, 253, 253);
+    background-color: rgb(124, 178, 207);
+    ;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.txt {
+    font-size: 10px;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px;
+
+}
+.card{
+    width: 420px;;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+.card h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 700;
+
+
+}
+.card p{
+    font-size: 12px;
+    color:#797e89;
+    margin-bottom: 18px;
+ 
+}
+.card span{
+    color: red;
+    cursor: pointer;
+}
+.card span:hover{
+    text-decoration: underline;
+}
+.card .singin{
+    border: none;
+    width: 100%;
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 12px;
+    border: 1px solid rgb(63, 63, 63,0.3);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap:10px;
+    
+}
+.card .button2{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 12px;
+
+}
+.field{
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+ .input{
+    width: 100%;
+    
+    padding:  10px 0px;
+    border-radius: 5px;
+    border:1px solid #d1d5db;
+    outline: none;
+}
+.input:focus{border-color:#9ca3af;
+      box-shadow:0 0 0 2px rgba(156,163,175,0.2);}
+.field-pass{
+    position: relative;
+}
+.field-pass .show{
+    position: absolute;
+    right: 10px;
+
+    top:40%;
+    transform:translateY(-50%);
+    font-size: 11px;
+}
+.forgot{
+    text-align: right;
+    margin-right: 5px;
+    font-size: 12px;
+    color: red;
+    cursor: pointer;
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.SIngin{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+}
